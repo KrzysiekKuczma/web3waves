@@ -23,16 +23,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-title {
+  color: white;
+  margin: 16px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-button {
+  font-size: 24px;
+  color: #61dafb;
+  background-color: #282c34;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.App-button:hover {
+  color: #282c34;
+  background-color: #61dafb;
+  border: 2px solid #61dafb;
+}
+
+.App-authData {
+  background-color: #4e5055;
+  margin: 16px;
+  line-height: 48px;
 }

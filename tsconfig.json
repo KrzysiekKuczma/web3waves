@@ -18,9 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "types": [
+      "./node_modules/@waves/waveskeeper-types"
+    ]
   },
   "include": [
     "src"
-  ]
+  ],
 }
